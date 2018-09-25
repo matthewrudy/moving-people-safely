@@ -48,7 +48,7 @@ header
       legend: false,
       choices: f.object.not_for_release_reasons,
       inline_choices: false,
-      data: { 'toggle-field' => f.object.not_for_release_reason_with_details }
+      toggle_options: [f.object.not_for_release_reason_with_details]
 
   .form-actions
     = f.submit 'Save and continue', class: 'govuk-button'
